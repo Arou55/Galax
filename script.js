@@ -1,3 +1,10 @@
+const tg = window.Telegram.WebApp;
+
+// Развернуть приложение на весь экран
+tg.expand();
+
+// Отключить скролл
+tg.enableClosingConfirmation();
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
